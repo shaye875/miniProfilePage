@@ -1,0 +1,52 @@
+#div{
+    border: solid 0.1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 34vw;
+    height: 22vh;
+    background-color: azure;
+}
+#div:hover{
+    background-color: rgb(27, 173, 124);
+}
+.ticher{
+    background-color: blue;
+    color: white;
+}
+.img{
+    object-fit: cover;
+    width: 24%;
+    position: relative;
+    right: 37%;
+    bottom: 62px;
+    border-radius: 1rem;
+}
+#allBUttons{
+    width: 69vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.gray{
+    color: gray;
+}
+.frend{
+    background-color: green;
+    color: white;
+}
+.studi{
+    background-color: purple;
+    color: white;
+}
+div h2{
+    color: rgb(175, 135, 135);
+}
+@media(max-width:700px){
+    #allBUttons{width: 80vw; flex-direction: column; height: 130vh;}
+    #div{height: 30vh; width: 100%;}
+}
